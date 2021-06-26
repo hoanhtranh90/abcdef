@@ -1,0 +1,84 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header { 
+    grid-area: header;
+    background-image: linear-gradient(#37A1FF, #1278D2);
+}
+.banner { 
+    grid-area: banner;
+    background-image: url('./access/banner.png');
+}
+.container_ { 
+    grid-area: container_;
+}
+.footer { 
+    grid-area: footer;}
+
+.main {
+    display: grid;
+    /* width: 1000px; */
+    grid-template-areas:
+    'header '
+    'banner '
+    'container_'
+    'footer ';
+    /* background-color: #2196F3; */
+    grid-template-rows:83px 286px 2181px 250px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.circle {
+    border-radius: 50%/50%; 
+    width: 292px;
+    margin:40px;
+    display:inline-block;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    background-repeat:round;
+    height: 292px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    backdrop-filter: blur(4px);
+}
+
+.goiCuoc_menu {
+    padding:0px 0px 0px 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+
+
+    color: #515151;
+}
+.goicuoc_menu_swipe {
+    width: 256px;
+    margin:60px;
+    display:inline-block;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    background-repeat:round;
+    height: 305px;
+    background-color: #1F69D9;
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: red;
+    backdrop-filter: blur(4px);
+}
