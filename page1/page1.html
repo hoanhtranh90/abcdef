@@ -4,77 +4,283 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page1.css">
     <title>page1</title>
 </head>
 
 <body>
-    <div class="main">
+    <div class="container">
         <div class="header">
+            <div id = "header_content" class="canle">
+                <div class="header_img_logo">
+                    <img src="./access/logo.svg" alt="">
+                </div>
+                <div class="header_trangchu">
+                    <img src="./access/logoHome.png" alt="">
+                    <p>Trang chủ</p>
 
+                </div>
+                <div class="header_simso">
+                    <img src="./access/logoSimso.png" alt="">
+                    <p>Sim số</p>
+
+                </div>
+                <div class="header_goicuoc">
+                    <img src="./access/goicuoc.png" alt="">
+                    <p>Gói cuớc</p>
+
+                </div>
+                <div class="header_tintuc">
+                    
+                    <p><img src="./access/tintuc.png" alt=""> Tin tức</p>
+
+                </div>
+                <div class="header_hotro">
+                    <img src="./access/hotro.png" alt="">
+                    <p>Hỗ trợ</p>
+
+                </div>
+                <div class="header_dangnhap">
+                    <img src="./access/dangnhap.png" alt="">
+                    <p>Đăng nhập</p>
+                </div>
+                <div class="header_dangky">
+                    <img src="./access/dangky.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="banner">
-
+            <p style="
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            margin-top: 90px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 50px;
+            color: #FFFFFF;">Hệ thống tiếp thị liên kết</p>
+            <p style="
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            margin-top: 15px;
+            text-align:center;
+            line-height: 28px;
+            letter-spacing: 1px;
+            color: #FFFFFF;">OSP Affiliate</p>
         </div>
-        <div class="container_">
-            <div class="chonSo">
+        <section class="main">
+            <section class="chonSo canle">
                 <div
-                    style="text-align: center; color: #F50A0A;font-weight:bold;font-size: 40px;line-height: 40px;font-family: 'Montserrat';font-style: normal;margin-top: 157px;">
+                    style="text-align: center; color: #F50A0A;font-weight:bold;font-size: 40px;line-height: 40px;font-family: 'Montserrat';font-style: normal;margin-top: 70px;">
                     <p>SIM SỐ - CHỌN SỐ ONLINE</p>
                 </div>
-                <div>
-                    <ul style="width: 100%;">
-                        <li class="circle" style="background-image:url('./access/bgSimtheoten.png');">Sim theo tên</li>
+                <div style="padding-top: 30px;">
+                    <ul style="display: flex;justify-content: space-between;">
+                        <li class="circle" style="background-image:url('./access/bgSimtheoten.png');">SIM THEO TÊN</li>
                         <li class="circle" style="background-image:url('./access/bgSimphongthuy.png');">SIM PHONG THỦY
                         </li>
                         <li class="circle" style="background-image:url('./access/bgsimdoi.png');">SIM ĐÔI</li>
                         <li class="circle" style="background-image:url('./access/bgSimsodep.png');">SIM SỐ ĐẸP</li>
                     </ul>
                 </div>
-            </div>
-            <div class="goiCuoc">
-                <div style="text-align: center;">
-                    <div>
-                        <p style="
+            </section>
+            <section
+                style=" background-color: #F5F6F8; width: 100%;padding-top: 44px; margin-top: 51px; padding-bottom: 58px;">
+                <div class="canle">
+                    <div style="text-align: center;">
+                        <div>
+                            <p style="
                         font-family: Montserrat;
                         font-style: normal;
-                        font-weight: bold;
+                        font-weight: 700;
                         font-size: 40px;
                         color: #1F69D9;">
-                            GÓI CƯỚC DI ĐỘNG
+                                GÓI CƯỚC DI ĐỘNG
+                            </p>
+                        </div>
+                        <div style="display: inline-flex;">
+                            <p class="goiCuoc_menu">GÓI HOT</p>
+                            <p class="goiCuoc_menu">TRẢ SAU</p>
+                            <p class="goiCuoc_menu">TRẢ TRƯỚC</p>
+                            <p class="goiCuoc_menu">DATA</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%;display: flex;justify-content: space-between;padding-top: 50px;">
+                        <div class="goicuoc_menu_swipe"
+                            style=" flex-direction: column; background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);">
+                            <img src="./access/hinhCong.svg" alt="error">
+                            <p class="goicuoc_text" style="position: absolute; top: 20px;">HD120</p>
+                            <div>
+                                <p class="boder_dotted">8.8GB tốc độ cao</p>
+                                <p class="boder_dotted">120.000 VNĐ</p>
+                                <p>30 ngày</p>
+                            </div>
+                            <div class="wrapper">
+                                <label class="btn1" id="btn_left1">Đăng ký</label>
+                                <label class="btn2" id="btn_right1">Xem chi tiết</label>
+                            </div>
+
+                        </div>
+                        <div class="goicuoc_menu_swipe"
+                            style=" flex-direction: column; background: linear-gradient(0deg, #DB0020 0.85%, #D40222 0.85%, #C70227 18.84%, #CE032E 28.58%, #DD0032 51.9%, #DA052E 84.35%);">
+                            <img src="./access/hinhCong.svg" alt="error">
+                            <p class="goicuoc_text" style="position: absolute; top: 20px;">HD120</p>
+                            <div>
+                                <p class="boder_dotted">8.8GB tốc độ cao</p>
+                                <p class="boder_dotted">120.000 VNĐ</p>
+                                <p>30 ngày</p>
+                            </div>
+                            <div class="wrapper wrapper_type2">
+                                <label class="btn1" id="btn_left1">Đăng ký</label>
+                                <label class="btn2" id="btn_right1">Xem chi tiết</label>
+                            </div>
+                        </div>
+                        <div class="goicuoc_menu_swipe"
+                            style=" flex-direction: column; background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);">
+                            <img src="./access/hinhCong.svg" alt="error">
+                            <p class="goicuoc_text" style="position: absolute; top: 20px;">HD120</p>
+                            <div>
+                                <p class="boder_dotted">8.8GB tốc độ cao</p>
+                                <p class="boder_dotted">120.000 VNĐ</p>
+                                <p>30 ngày</p>
+                            </div>
+                            <div class="wrapper">
+                                <label class="btn1" id="btn_left1">Đăng ký</label>
+                                <label class="btn2" id="btn_right1">Xem chi tiết</label>
+                            </div>
+
+                        </div>
+                        <div class="goicuoc_menu_swipe"
+                            style=" flex-direction: column; background: linear-gradient(0deg, #DB0020 0.85%, #D40222 0.85%, #C70227 18.84%, #CE032E 28.58%, #DD0032 51.9%, #DA052E 84.35%);">
+                            <img src="./access/hinhCong.svg" alt="error">
+                            <p class="goicuoc_text" style="position: absolute; top: 20px;">HD120</p>
+                            <div>
+                                <p class="boder_dotted">8.8GB tốc độ cao</p>
+                                <p class="boder_dotted">120.000 VNĐ</p>
+                                <p>30 ngày</p>
+                            </div>
+                            <div class="wrapper wrapper_type2">
+                                <label class="btn1" id="btn_left1">Đăng ký</label>
+                                <label class="btn2" id="btn_right1">Xem chi tiết</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="affiliate canle">
+                <div style="text-align: center; margin-top: 35px;padding-bottom: 66px;">
+                    <p style="
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 38px;
+                    color: #F50A0A;
+                    line-height: 40px;">
+                        CHƯƠNG TRÌNH AFFILIATE
+                    </p>
+                    <p style="
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 40px;
+                    letter-spacing: 2px;
+                    color: #888888;">
+                        THAM GIA KIẾM TIỀN CÙNG OSP AFFLIATE
+                    </p>
+                </div>
+
+                <div id="do">
+                    <div>
+                        <img src="./access/affilate/img1.svg" alt="error">
+                        <p>Chính sách hoa hồng</p>
+                        <p>OSP Affiliate luôn phát triển chính sách Hoa hồng hấp dẫn. Cam kết rõ ràng, minh bạch, chính
+                            xác, kịp thời trong thanh toán và ghi nhận doanh thu cho mạng lưới CTV và đối tác bán hàng
                         </p>
                     </div>
-                    <div style="display: inline-flex;">
-                        <p class="goiCuoc_menu">GÓI HOT</p>
-                        <p class="goiCuoc_menu">TRẢ SAU</p>
-                        <p class="goiCuoc_menu">TRẢ TRƯỚC</p>
-                        <p class="goiCuoc_menu">DATA</p>
+                    <div>
+                        <img src="./access/affilate/img2.svg" alt="error">
+                        <p>Thu nhập không giới hạn</p>
+                        <p>Chỉ cần bạn đầu tư thời gian, thu nhập của bạn là không giới hạn. OSP Affiliate thường xuyên
+                            cung cấp các sản phẩm dịch vụ mới thúc đẩy doanh số hỗ trợ CTV phát triển kinh doanh và gia
+                            tăng thu nhập</p>
+                    </div>
+                    <div>
+                        <img src="./access/affilate/img3.svg" alt="error">
+                        <p>Đa dạng dịch vụ</p>
+                        <p>Sản phẩm, dịch vụ có trên OSP Affiliate luôn được cập nhật kịp thời, đảm bảo tính đa dạng, dễ
+                            kinh doanh và nhiều ưu đãi. Đây cũng là những dịch vụ viễn thông - sản phẩm thông minh tốt
+                            nhất hiện nay</p>
                     </div>
                 </div>
-                <div style="display: inline-flex;">
-                    <p class="goicuoc_menu_swipe">HD120</p>
-                    <p class="goicuoc_menu_swipe">HD120</p>
-                    <p class="goicuoc_menu_swipe">HD120</p>
-                    <p class="goicuoc_menu_swipe">HD120</p>
+            </section>
+            <section class="logoList" style=" background-color: #F5F6F8; width: 100%; margin-top: 50px;">
+                <div class="logoList_content canle">
+                    <img src="./access/logo/mbf_logo.svg" alt="">
+                    <img src="./access/logo/osplogo.svg" alt="">
+                    <img src="./access/logo/logotcb.svg" alt="">
+                    <img src="./access/logo/logovpbank.svg" alt="">
                 </div>
-            </div>
-            <div class="affiliate">
+            </section>
+            <section class="registerForm">
+                <div id="registerForm_content">
+                    <div class="canle">
+                        <div>
+                            <p class="registerForm_content_title">Đăng ký, hợp tác cùng OSP AFFILIATE</p>
+                            <p class="registerForm_content_title">ngay từ hôm nay!</p>
+                            <h4>Hoàn toàn miễn phí. Chỉ trong 01 phút. Để có thêm nguồn thu nhập mới từ sự ảnh hưởng của
+                                bạn trên </h4>
+                            <h4>Internet. Với sự bảo đảm và hỗ trợ chuyên nghiệp từ OSP Affiliate.</h4>
+                        </div>
+                        <button class="button">Đăng ký miễn phí</button>
 
-            </div>
-            <div class="registerForm">
+                    </div>
 
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <div class="footer_content canle">
+                <div class="ft_1">
+                    <img src="./access/logo/osplogo.svg" alt="">
+                </div>
+                <div class="ft_2">
+                    <p>Thông tin chung</p>
+                    <p>Giới thiệu</p>
+                    <p>Chính sách bảo mật</p>
+                    <p>Các câu hỏi thường gặp</p>
+                    <p>Liên hệ</p>
+                </div>
+                <div class="ft_3">
+                    <p>Chương trình OSP Affiliate</p>
+                    <p>Giới thiệu</p>
+                    <p>Hướng dẫn tham gia</p>
+                    <p>Chính sách hoa hồng</p>
+                    <p>Hỗ trợ</p>
+                </div>
+                <div class="ft_4">
+                    <img src="./access/logo/mbf_logo.svg" alt="" height="100px">
+                    <h4>Chương trình Tiếp thị liên kết từ</h4>
+                    <h4>OSP Affiliate với mức hoa hồng hấp dẫn!</h4>
+                    <div class="ft_4_icon">
+                        <img src="./access/fotter/telegram.svg" alt="">
+                        <img src="./access/fotter/zalo.svg" alt="">
+                        <img src="./access/fotter/fb.svg" alt="">
+                        <img src="./access/fotter/tw.svg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="ft_last"></div> -->
             </div>
-        </div>
-        <div class="footer">
-            <div class="ft_1" style="background-image: url('./access/osplogo.png');width: 200px;height: 100px ; object-fit: cover;"></div>
-            <div class="ft_2"></div>
-            <div class="ft_3"></div>
-            <div class="ft_4"></div>
-            <div class="ft_last"></div>
-        </div>
+        </section>
     </div>
+
 </body>
 
 </html>
