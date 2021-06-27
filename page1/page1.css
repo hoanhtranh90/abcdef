@@ -52,11 +52,56 @@
 }
 .header_dangky {
     grid-area: header_dangky;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px 25px;
+    width: 158px;
+    height: 42px;
 }
+.header_dangky p {
+    background: linear-gradient(180deg, #37A1FF 0%, #1278D2 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.header_menu_icon img {
+    margin: auto;
+    align-self: center;
+    display: block;   
+}
+.header_menu_icon {
+    display: flex;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.lo {
+    display: flex;
+}
+.lo > p {
+    align-self: center;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 142%;
+    color:#fff
+}
+
 #header_content {
+    height: 100%;
     display: grid;
     grid-template-areas:
     ' header_img_logo header_trangchu header_simso header_goicuoc header_tintuc header_hotro header_dangnhap header_dangky'
+}
+#header_content > div{
+    align-self: center;
 }
 .container {
     display: grid;
