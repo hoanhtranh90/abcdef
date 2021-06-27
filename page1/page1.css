@@ -11,6 +11,7 @@
 .banner { 
     grid-area: banner;
     background-image: url('./access/banner.png');
+    background-size: cover;
 }
 .main { 
     grid-area: main;
