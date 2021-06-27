@@ -4,6 +4,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+p {
+    margin-bottom: 0 !important;
+}
 .header { 
     grid-area: header;
     background-image: linear-gradient(#37A1FF, #1278D2);
@@ -103,7 +106,7 @@
 #header_content > div{
     align-self: center;
 }
-.container {
+.container1 {
     display: grid;
     /* width: 1000px; */
     grid-template-areas:
@@ -335,7 +338,6 @@
 
 
 .button {
-    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
