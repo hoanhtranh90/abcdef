@@ -203,78 +203,56 @@ p {
 }
 /* kq hoat dong */
 
-.luot-click {
-    grid-area: luot-click;
-    grid-column: 1 / 4;
-    grid-row: 1/2;
+.grid-1 {
+    grid-area: grid-1;
 }
-.ref-new {
-    grid-area: ref-new;
-    grid-column: 4 / 7;
-    grid-row: 1/2;
+.grid-2 {
+    grid-area: grid-2;
 }
-.total-donhang {
-    grid-area: total-donhang;
-    grid-column: 7 / 10;
-    grid-row: 1/2;
+.grid-3 {
+    grid-area: grid-3;
 }
-.hoa-hong {
-    grid-area: hoa-hong;
-    grid-column: 10/ 13;
-    grid-row: 1/2;
+.grid-4 {
+    grid-area: grid-4;
 }
-.doanh-thu {
-    grid-area:doanh-thu;
-    grid-column: 1 / 5;
-    grid-row: 2/3;
+.grid-5 {
+    grid-area: grid-5;
 }
-.hoa-hong-ghi-nhan {
-    grid-area: hoa-hong-ghi-nhan;
-    grid-column: 5/9;
-    grid-row: 2/3;
+.grid-6 {
+    grid-area: grid-6;
 }
-.hoa-hong-doi-soat {
-    grid-area: hoa-hong-doi-soat;
-    grid-column: 9 /13;
-    grid-row: 2/3;
-}
-.tong-hoa-hong {
-    grid-area: tong-hoa-hong;
-    grid-column: 1 /13;
-    grid-row: 3 / 4;
-    height: 191px;
+.grid-7 {
+    grid-area: grid-7;
 }
 .grid-kqhoatdong {
     padding-top: 31px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto 240px;
-    grid-column-gap: 10px;
-    grid-row-gap: 13px;
-
-
+    grid-template-areas: 
+    'grid-1 grid-2'
+    ;
+    grid-column-gap: 28px;
 }
 .grid-kqhoatdong > div {
-    display: flex; justify-content: space-between;padding: 17px 12px 20px 20px;
+    display: flex; justify-content: space-between;padding: 32px 20px 29px 40px;
     background-color: #F8FEFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);;
     border-radius: 10px;
   }
-.grid-kqhoatdong > div:nth-child(-n+4) p:nth-child(1) {
+.grid-kqhoatdong > div:nth-child(-n+2) p:nth-child(1) {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 30px;
     color: #545454;
 }
-.grid-kqhoatdong > div:nth-child(-n+4) p:nth-child(2) {
+.grid-kqhoatdong > div:nth-child(-n+2) p:nth-child(2) {
     padding-top: 8px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
     background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -285,9 +263,9 @@ p {
 .grid-kqhoatdong > div p:nth-child(3) {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
     background: linear-gradient(0deg, #DB0020 0.85%, #D40222 0.85%, #C70227 18.84%, #CE032E 28.58%, #DD0032 51.9%, #DA052E 84.35%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -295,45 +273,9 @@ p {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
-.grid-kqhoatdong > div:nth-child(n+4) p:nth-child(1) {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #32325D;
-}
-.grid-kqhoatdong > div:nth-child(n+4) p:nth-child(2) {
-    padding-top: 8px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
-    color: #1764E8;
-}
-.grid-kqhoatdong > div:nth-child(8) p:nth-child(1) {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    color: #545454;
-}
-.grid-kqhoatdong > div:nth-child(8) p:nth-child(2) {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
+
 .grid-kqhoatdong i {
     background: linear-gradient(0deg, #DB0020 0.85%, #D40222 0.85%, #C70227 18.84%, #CE032E 28.58%, #DD0032 51.9%, #DA052E 84.35%);
     background-size: 100%;
@@ -356,6 +298,10 @@ p {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+.grid-kqhoatdong img {
+    width: 80px;
+    height: 80px;
+}
 /* .kqhd-text-text1 {
     font-family: Montserrat;
     font-style: normal;
@@ -367,63 +313,6 @@ color: #545454;
  */
 /* ds chien dich*/
 
-thead tr {
-  }
-  
-.styled-table > tbody{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-.styled-table thead {
-    border-radius: 16px 16px 0 0;
-    
-}
-.styled-table thead tr {
-    background-color: #ECECEC;
-    color: #ffffff;
-    text-align: left;
-}
-.styled-table thead tr > th {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-tbody:before {
-    content:"@";
-    display:block;
-    line-height:10px;
-    text-indent:-99999px;
-}
-.styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-
-/* .styled-table tbody tr:nth-of-type(even) {
-    background-color: red;
-}
-
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-}
-.styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
-} */
-/* form */
 #form-info {
     border-radius: 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);}
