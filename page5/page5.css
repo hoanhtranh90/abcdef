@@ -160,9 +160,7 @@ p {
 }
 
 .form_1 {
-    margin: 11px 0px;
-    background-color: #F8F8F8;
-    border-radius: 15px;
+
 
 }
 
@@ -184,10 +182,10 @@ p {
     background: linear-gradient(180deg, #37A1FF 0%, #1278D2 100%);
   }
 
-  .form_1 p {
+.form_1 div {
     grid-area: p;
 }
-.form_1 div {
+.form_1  {
     display: grid;
     grid-template-areas:
     'span p';
@@ -201,6 +199,23 @@ p {
     width: 12px;
     height: 12px;
 }
+#button1 {
+    border: none;
+    color: white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #37A1FF 0%, #1278D2 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 10px;
+
+  }
 #button2 {
     border: none;
     color: white;
