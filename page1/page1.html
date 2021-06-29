@@ -8,15 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
     <link rel="stylesheet" href="page1.css">
+	<script type="text/javascript" src="script.js"></script>
+
     <title>page1</title>
 </head>
 
 <body>
     <div class="container1">
-        <div class="header">
+        <section class="header">
             <div id="header_content" class="canle">
                 <div class="header_img_logo">
                     <img src="../access/header/logo.svg" alt="">
@@ -71,8 +78,25 @@
                     <p>Đăng ký</p>
                 </div>
             </div>
-        </div>
-        <div class="banner">
+            <div class="menu-mobile">
+                <i class="icon1 fas fa-align-justify" onclick="changeClass()"></i>
+                <div class="menu-left">
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                        <h3 >Menu Mobile</h3>
+                    <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Sim số</a></li>
+                            <li><a href="#">Gói cước</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Hỗ trợ</a></li>
+                            <li><a href="#">Đăng nhập</a></li>
+                            <li><a href="#">Đăng ký</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <section class="banner">
             <p style="
             font-family: Montserrat;
             font-style: normal;
@@ -92,7 +116,7 @@
             line-height: 28px;
             letter-spacing: 1px;
             color: #FFFFFF;">OSP Affiliate</p>
-        </div>
+        </section>
         <section class="main">
             <section class="chonSo canle">
                 <div
@@ -100,7 +124,7 @@
                     <p>SIM SỐ - CHỌN SỐ ONLINE</p>
                 </div>
                 <div style="padding-top: 30px;">
-                    <ul style="display: flex;justify-content: space-between;">
+                    <ul class="chon-so-content">
                         <li class="circle" style="background-image:url('../access/bgSimtheoten.png');">SIM THEO TÊN</li>
                         <li class="circle" style="background-image:url('../access/bgSimphongthuy.png');">SIM PHONG THỦY
                         </li>
@@ -130,7 +154,7 @@
                             <p class="goiCuoc_menu">DATA</p>
                         </div>
                     </div>
-                    <div style="width: 100%;display: flex;justify-content: space-between;padding-top: 50px;">
+                    <div class="goicuoc_display">
                         <div class="goicuoc_menu_swipe"
                             style=" flex-direction: column; background: linear-gradient(0deg, #1F69D9 -25.58%, #105FD6 15.28%, #1462E0 29.31%, #1B67F1 60.84%, #206AFC 95%, #216BFF 173.32%, #1562E1 243.78%, #105FD6 280.23%);">
                             <img src="../access/hinhCong.svg" alt="error">
@@ -295,7 +319,10 @@
                         <img src="../access/fotter/tw.svg" alt="">
                     </div>
                 </div>
-                <!-- <div class="ft_last"></div> -->
+            </div>
+            <div class="ft_last">
+                <p>Copyright © 2015 CÔNG TY CỔ PHẦN TẬP ĐOÀN CÔNG NGHỆ OSP | Địa chỉ: Tầng 7, Toà Nhà Đại Phát, số 82,
+                    Phố Duy Tân, Cầu Giấy, Hà Nội. | Điện thoại: +84-24-3568 2502 - Fax: +84-24-3568 2504</p>
             </div>
         </section>
     </div>
