@@ -1,0 +1,30 @@
+.table_ttsp {
+    display: flex;
+    width: 100%;
+}
+.tab > div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.tab > div:nth-child(n+2) {
+    margin: 5px 15px;
+
+}
+.tab-header {
+    background-color: #ECECEC !important;
+    padding: 5px 30px !important;
+    border-radius: 16px 16px 0px 0px !important;
+    /* margin: 0 !important */
+    
+}
+.tab {
+    background-color: #F8F8F8;
+    padding: 0;
+}
+.form-check {
+    padding: 5px 15px ;
+
+}

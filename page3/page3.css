@@ -89,14 +89,7 @@ p {
     line-height: 142%;
     color:#fff
 }
-.text_gradient {
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    text-align: center;
-}
+
 #header_content {
     height: 100%;
     display: grid;
